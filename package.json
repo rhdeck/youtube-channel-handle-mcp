@@ -15,6 +15,10 @@
   "keywords": ["mcp", "social-media", "username", "handle", "availability", "youtube", "tiktok", "threads", "twitter", "x", "instagram", "brand", "research"],
   "author": "Ray",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhdeck/youtube-channel-handle-mcp.git"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.5.0",
     "axios": "^1.6.0"

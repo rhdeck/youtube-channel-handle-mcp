@@ -127,27 +127,46 @@ Option A — npx (recommended, zero install):
 }
 ```
 
-Option B — Node (using a local clone/build):
+## Windsurf Assistant UI
+
+Add this MCP server to Windsurf Assistant UI using STDIO:
+
+- Open Settings → MCP Servers → Add Server
+- Name: `social-media-handle-checker`
+- Command: `npx`
+- Args: `-y @raydeck/social-media-handle-checker-mcp`
+- Env: leave empty (not required)
+
+Equivalent JSON (for builds that support JSON import):
 
 ```json
 {
   "mcpServers": {
     "social-media-handle-checker": {
-      "command": "node",
-      "args": ["/path/to/youtube-channel-handle-mcp/build/index.js"],
+      "command": "npx",
+      "args": ["-y", "@raydeck/social-media-handle-checker-mcp"],
       "env": {}
     }
   }
 }
 ```
 
+## Install in Cursor
+
+Click to add this MCP server to Cursor.
+
+Text link:
+[cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==](cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==)
+Buttons:
+
+[![Add to Cursor (dark)](https://cursor.com/deeplink/mcp-install-dark.png)](cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==)
+[![Add to Cursor (light)](https://cursor.com/deeplink/mcp-install-light.png)](cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==)
+
 ### Quick Start Usage
 
 ```bash
 # Check all platforms at once (recommended)
 check_all_platforms("mybrandname")
-
-# Check individual platforms
 check_youtube_handle("mybrandname")
 check_tiktok_handle("mybrandname")
 check_instagram_handle("mybrandname")
