@@ -1,6 +1,6 @@
 {
   "name": "@raydeck/social-media-handle-checker-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Comprehensive MCP server for checking username availability across YouTube, TikTok, Threads, X, and Instagram",
   "main": "build/index.js",
   "type": "module",
