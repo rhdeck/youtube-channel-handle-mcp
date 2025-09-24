@@ -1,6 +1,6 @@
 {
   "name": "@raydeck/social-media-handle-checker-mcp",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Comprehensive MCP server for checking username availability across YouTube, TikTok, Threads, X, and Instagram",
   "main": "build/index.js",
   "type": "module",
@@ -12,8 +12,22 @@
     "dev": "tsc --watch",
     "start": "node build/index.js"
   },
-  "keywords": ["mcp", "social-media", "username", "handle", "availability", "youtube", "tiktok", "threads", "twitter", "x", "instagram", "brand", "research"],
-  "author": "Ray",
+  "keywords": [
+    "mcp",
+    "social-media",
+    "username",
+    "handle",
+    "availability",
+    "youtube",
+    "tiktok",
+    "threads",
+    "twitter",
+    "x",
+    "instagram",
+    "brand",
+    "research"
+  ],
+  "author": "Ray Deck",
   "license": "MIT",
   "repository": {
     "type": "git",
