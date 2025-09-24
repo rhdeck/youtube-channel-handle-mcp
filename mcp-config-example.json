@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "social-media-handle-checker": {
+      "command": "node",
+      "args": ["/Users/ray/Documents/youtube-channel-handle-mcp/build/index.js"],
+      "env": {},
+      "description": "Check username availability across YouTube, TikTok, Threads, X, and Instagram"
+    }
+  }
+}
