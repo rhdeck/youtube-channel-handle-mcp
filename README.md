@@ -1,5 +1,7 @@
 # Social Media Handle Checker MCP Server
 
+[![npm version](https://img.shields.io/npm/v/%40raydeck/social-media-handle-checker-mcp.svg)](https://www.npmjs.com/package/%40raydeck/social-media-handle-checker-mcp)
+
 A comprehensive Model Context Protocol (MCP) server that checks username availability across all major social media platforms. Perfect for qualifying brand names for your media business.
 
 ## Features
@@ -11,32 +13,10 @@ A comprehensive Model Context Protocol (MCP) server that checks username availab
 - 🔍 **Comprehensive Data**: Extract profile names, IDs, descriptions, and engagement metrics
 - 💼 **Brand Research**: Perfect for media business name qualification and competitive analysis
 
-## Installation
 
-```bash
-npm install
-npm run build
-```
 
-## Usage
 
-This is an MCP server that runs over STDIO. You can use it with any MCP-compatible client.
-
-### Manual Testing
-
-You can test the server manually by running:
-
-```bash
-npm start
-```
-
-Or, without cloning/building, run directly with npx (recommended for a quick try):
-
-```bash
-npx -y @raydeck/social-media-handle-checker-mcp
-```
-
-### Available Tools
+## Available Tools
 
 #### 1. `check_all_platforms` - 🎯 **RECOMMENDED**
 
@@ -113,6 +93,9 @@ The server makes HTTP requests to social media platform profile pages to determi
 
 Add this server to your MCP client configuration.
 
+This is an MCP server that runs over STDIO. You can use it with any MCP-compatible client.
+
+
 Option A — npx (recommended, zero install):
 
 ```json
@@ -155,11 +138,6 @@ Equivalent JSON (for builds that support JSON import):
 
 Click to add this MCP server to Cursor.
 
-Text link:
-[cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==](cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==)
-Buttons:
-
-[![Add to Cursor (dark)](https://cursor.com/deeplink/mcp-install-dark.png)](cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==)
 [![Add to Cursor (light)](https://cursor.com/deeplink/mcp-install-light.png)](cursor://anysphere.cursor-deeplink/mcp/install?name=social-media-handle-checker&config=eyJzb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXIiOnsiY29tbWFuZCI6Im5weCIsImFyZ3MiOlsiLXkiLCJAcmF5ZGVjay9zb2NpYWwtbWVkaWEtaGFuZGxlLWNoZWNrZXItbWNwIl19fQ==)
 
 ### Quick Start Usage
